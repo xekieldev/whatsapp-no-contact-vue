@@ -1,6 +1,5 @@
 <script setup>
-import FormRow from './FormRow.vue'
-
+import { onMounted } from 'vue'
 
 </script>
 
@@ -62,6 +61,8 @@ p{
     border-radius: 5px;
     display: block;
     margin: auto;
-}</style>
+}
+
+</style>
 
 

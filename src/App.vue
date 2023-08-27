@@ -73,7 +73,7 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 } */
-.formkit-wrapper{
+/* .formkit-wrapper{
   max-width: 417px;
-}
+} */
 </style>

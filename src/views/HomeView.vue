@@ -7,13 +7,15 @@ import Footerbar from "../components/Footer.vue"
 
 <template>
   <navbar></navbar>
+  <div class="content">
   <!-- <h1>Envía un WhatsApp sin guardar el número en tus contactos</h1> -->
   <fmobile title="Envía un WhatsApp sin guardar el número en tus contactos" />
+</div>
   <footerbar></footerbar>
 </template>
 
 <style>
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
     display: flex;
@@ -23,12 +25,12 @@ import Footerbar from "../components/Footer.vue"
   }
 fmobile{
   justify-content: center;
-}
+} */
   /* h1 {
     display: flex; 
     justify-content: center;
     width: 100%;
     padding: 40px;
   } */
-}
+/* } */
 </style>L

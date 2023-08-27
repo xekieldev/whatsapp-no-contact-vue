@@ -1,11 +1,9 @@
 <script setup>
 import { onMounted } from 'vue'
 import FormRow from './FormRow.vue'
-import { useCountryCode } from '../composables/countrycode'
 import 'intl-tel-input/build/css/intlTelInput.css'
 import intlTelInput from 'intl-tel-input'
 
-const { countrycode } = useCountryCode()
 const props = defineProps({
     context: String,
     title: String,

@@ -16,7 +16,7 @@
 <style scoped>
 .footer {
   /* background-color: #959696; */
-  background: #959696;
+  background: #efefef;
   opacity: 0.5;
   color: white;
   padding: 20px 0;
