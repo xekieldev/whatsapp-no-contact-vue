@@ -1,5 +1,4 @@
 <script setup>
-import { onMounted } from 'vue'
 
 </script>
 
@@ -37,6 +36,7 @@ import { onMounted } from 'vue'
 <style scoped>
 .help-container {
     display: flex;
+    height: auto;
     flex-direction: column;
     align-items: center;
     
