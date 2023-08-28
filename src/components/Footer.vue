@@ -19,7 +19,7 @@
   background: #efefef;
   opacity: 0.5;
   color: white;
-  padding: 20px 0;
+  padding: 0 20px 10px;
   text-align: center;
   position: fixed;
   bottom: 0;

@@ -100,6 +100,7 @@ onMounted(() => {
 }
 h1{
     display: flex;
+    text-align: center;
     justify-content: center;
     width: 100%;
     padding: 40px;

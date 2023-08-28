@@ -22,7 +22,7 @@
   align-items: center;
   background-color: #333;
   color: white;
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 .logo {
   font-size: 1.5rem;
