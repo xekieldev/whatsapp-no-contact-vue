@@ -5,7 +5,6 @@ import 'intl-tel-input/build/css/intlTelInput.css'
 import intlTelInput from 'intl-tel-input'
 
 const props = defineProps({
-    context: String,
     title: String,
 })
 

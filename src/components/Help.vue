@@ -1,15 +1,19 @@
 <script setup>
 
+const props = defineProps({
+    title: String,
+})
+
 </script>
 
 <template>
     <div class="help-container">
-        <h1>Ayuda - Envía un WhatsApp sin guardar el número en tus contactos</h1>
+        <h1>{{ title }}</h1>
         <p> En esta página web puedes enviar mensajes a través de <a id="link" href="https://www.whatsapp.com">WhatsApp</a>
             sin necesidad de agregar el número a tus contactos.</p>
-        
+
         <br>
-        
+
         <h3>Si lo usas desde tu móvil</h3>
         <p>- Escribe el número al celular que quieres enviar el <a id="link" href="https://www.whatsapp.com">WhatsApp</a>
         </p>
@@ -31,30 +35,27 @@
         <p>- Click en "Abrir enlace"</p>
         <p>- Listo! Ya puedes escribir el mensaje!</p>
         <br>
-        <br>
-        <br>
-        <br>
     </div>
 </template>
 
 <style scoped>
 .help-container {
+    background: linear-gradient(to top, #ffffff, #888888);
     display: flex;
-    /* height: 100vh; */
     flex-direction: column;
     align-items: center;
-    
+    justify-content: center;
+
 }
 
 h1 {
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 100%;
     padding: 40px;
 }
 
-p{
+p {
     font-size: 14px;
     text-align: center;
 }
@@ -65,10 +66,9 @@ p{
     border-width: 2px;
     border-color: gray;
     border-radius: 5px;
-    display: block;
-    margin: auto;
+    /* display: block; */
+    /* margin: auto; */
 }
-
 </style>
 
 

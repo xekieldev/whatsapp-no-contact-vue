@@ -6,7 +6,7 @@ import Footerbar from "../components/Footer.vue"
 
 <template>
   <navbar></navbar>
-  <help/>
+  <help title="Ayuda - Envía un WhatsApp sin guardar el número en tus contactos"/>
   <footerbar></footerbar>
 </template>
 
