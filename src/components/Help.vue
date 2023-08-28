@@ -36,7 +36,6 @@
 <style scoped>
 .help-container {
     display: flex;
-    height: auto;
     flex-direction: column;
     align-items: center;
     
@@ -50,7 +49,7 @@ h1 {
 }
 
 p{
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #opcion {
