@@ -30,6 +30,10 @@
             ya no se mostrará esta pantalla)</p>
         <p>- Click en "Abrir enlace"</p>
         <p>- Listo! Ya puedes escribir el mensaje!</p>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
 </template>
 
