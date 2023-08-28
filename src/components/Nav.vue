@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink, RouterView } from 'vue-router'
 
 </script>
 
@@ -8,8 +9,8 @@
         <a href="/"><img src="../images/logo.png" alt=""></a>
     </div>
     <ul class="nav-links">
-      <li><a href="/">Inicio</a></li>
-      <li><a href="/ayuda">Ayuda</a></li>
+      <li><RouterLink to="/">Inicio</RouterLink></li>
+      <li><RouterLink to="/ayuda">Inicio</RouterLink></li>
     </ul>
   </nav>
 </template>

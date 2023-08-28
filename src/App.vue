@@ -6,7 +6,7 @@ import "./assets/main.css"
 
 <template>
   
-           
+    
   <RouterView />
 </template>
 
