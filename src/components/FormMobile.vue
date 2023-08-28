@@ -84,7 +84,7 @@ onMounted(() => {
 }
 
 .formkit-input {
-    width: 280px;
+    width: 200px;
     background: white;
 }
 </style>
@@ -103,7 +103,6 @@ h1{
     justify-content: center;
     width: 100%;
     padding: 40px;
-    padding-bottom: 100px;
 } 
 
 </style>
