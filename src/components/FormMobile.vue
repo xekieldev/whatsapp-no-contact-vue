@@ -32,18 +32,20 @@ onMounted(() => {
 </script>
 
 <template>
-    <h1>{{ title }}</h1>
+    <div class="form-container">
+        <h1>{{ title }}</h1>
 
-    <form-kit type="form" submit-label=" " @submit="SendAWhatsapp" :actions="false">
-        <form-row>
-            <div class="phone-wrapper">
-                <input type="text" id="phone">
-            </div>
-            <form-kit type="tel" name="mobile" placeholder="Ingrese el número" />
-            <form-kit type="submit" label=" "></form-kit>
+        <form-kit type="form" submit-label=" " @submit="SendAWhatsapp" :actions="false">
+            <form-row>
+                <div class="phone-wrapper">
+                    <input type="text" id="phone">
+                </div>
+                <form-kit type="tel" name="mobile" placeholder="Ingrese el número" />
+                <form-kit type="submit" label=" "></form-kit>
 
-        </form-row>
-    </form-kit>
+            </form-row>
+        </form-kit>
+    </div>
 </template>
 
 <style>
@@ -89,6 +91,10 @@ onMounted(() => {
 </style>
 
 <style scoped>
+.form-container {
+    background: linear-gradient(to top, #ffffff, #888888);
+}
+
 .phone-wrapper {
     display: flex;
     flex-direction: column-reverse;
@@ -97,14 +103,14 @@ onMounted(() => {
     align-self: center;
     margin-bottom: 15px;
 }
-h1{
+
+h1 {
     display: flex;
     text-align: center;
     justify-content: center;
     width: 100%;
     padding: 40px;
-} 
-
+}
 </style>
 
 
