@@ -93,6 +93,8 @@ onMounted(() => {
 <style scoped>
 .form-container {
     background: linear-gradient(to top, #ffffff, #888888);
+    height:100vh;
+    margin-bottom: 40px;
 }
 
 .phone-wrapper {
