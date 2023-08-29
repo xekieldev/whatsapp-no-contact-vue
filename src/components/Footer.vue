@@ -19,11 +19,15 @@
   background: #efefef;
   opacity: 0.5;
   color: white;
-  padding: 0 20px 10px;
-  text-align: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
+  height: 40px;
+  padding: 0 20px 10px;
+  text-align: center;
+  /* position: fixed; */
+  bottom: 0;
+  /* width: 100%; */
 }
 
 .logo {

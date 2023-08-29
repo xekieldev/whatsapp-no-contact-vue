@@ -42,10 +42,11 @@ const props = defineProps({
 .help-container {
     background: linear-gradient(to top, #ffffff, #888888);
     display: flex;
+    /* max-height: 80vh; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    /* overflow:visible; */
 }
 
 h1 {
