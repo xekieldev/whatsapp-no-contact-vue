@@ -47,6 +47,7 @@ const props = defineProps({
     align-items: center;
     justify-content: center;
     /* overflow:visible; */
+    padding: 0 10px;
 }
 
 h1 {
