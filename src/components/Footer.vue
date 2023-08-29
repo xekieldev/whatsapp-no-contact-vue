@@ -16,14 +16,14 @@
 <style scoped>
 .footer {
   /* background-color: #959696; */
-  background: #efefef;
+  background: #ffffff;
   opacity: 0.5;
   color: white;
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   width: 100%;
   height: 40px;
-  padding: 0 20px 10px;
+  padding: 0 20px;
   text-align: center;
   /* position: fixed; */
   bottom: 0;
