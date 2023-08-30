@@ -23,7 +23,7 @@ import { RouterLink, RouterView } from 'vue-router'
   align-items: center;
   background-color: #333;
   color: white;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
 }
 .logo {
   font-size: 1.5rem;
@@ -43,7 +43,7 @@ import { RouterLink, RouterView } from 'vue-router'
   color: white;
 }
 img{
-    padding-top: 10px;
+    /* padding-top: 10px; */
     margin: 5px;
     width: 60px;
     height: 60px;
