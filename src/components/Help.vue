@@ -48,6 +48,7 @@ const props = defineProps({
     justify-content: center;
     /* overflow:visible; */
     padding: 0 10px;
+    margin-bottom: 80px;
 }
 
 h1 {

@@ -1,13 +1,15 @@
 @import './base.css';
 
-#app {
+/* #app {
   max-width: 1280px;
   margin: 0 0 40px;
-  /* padding: 2rem; */
+  padding: 2rem;
 
   font-weight: normal;
-}
-
+} */
+/* #app{
+  height: 50%;
+} */
 html{
   /* min-height: 95vh; */
   position: relative;
