@@ -1,16 +1,5 @@
 @import './base.css';
 
-
-
-html, body {
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
-}
-.modal {
-  width: 50vw;
-  height: 50vh;
-  height: calc(var(--vh, 1vh) * 50);
-}
 /* #app {
   max-width: 1280px;
   margin: 0 0 40px;
@@ -21,18 +10,23 @@ html, body {
 /* #app{
   height: 50%;
 } */
-/* html{
+html{
+  /* min-height: 95vh; */
   position: relative;
-} */
+}
 
-/* body{
+body{
+  /* width: 100vw;
+  height: 100%; */
   margin: 0 0 50 0;
+  /* margin-bottom: 40px; */
 }
 body {
   display: flex;
   flex-direction: column;
+  /* background: linear-gradient(to top, #ffffff, #888888);  */
 
-} */
+}
 
 /* .formkit-wrapper{
   max-width: 417px;
