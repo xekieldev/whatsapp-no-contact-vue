@@ -90,9 +90,9 @@ onMounted(() => {
 </style>
 
 <style scoped>
-/* .form-container {
+.form-container {
     height:90vh;
-} */
+}
 
 .phone-wrapper {
     display: flex;
