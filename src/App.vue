@@ -20,7 +20,7 @@ import Footerbar from "./components/Footer.vue"
 .container{
 
   background: linear-gradient(to top, #ffffff, #888888);
-  height: 50%;
+  height: 90%;
 
 }
 </style>
