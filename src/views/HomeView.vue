@@ -12,6 +12,9 @@ import Fmobile from '../components/FormMobile.vue'
 </template>
 
 <style scoped>
+.content{
+  margin-top: 60px;
+}
 /* @media (min-width: 1024px) {
   .about {
     min-height: 100vh;

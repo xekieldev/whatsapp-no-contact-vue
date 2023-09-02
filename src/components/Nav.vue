@@ -19,6 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
 .navbar {
   display: flex;
   width: 100%;
+  position: fixed;
   justify-content: start;
   align-items: center;
   background-color: #333;

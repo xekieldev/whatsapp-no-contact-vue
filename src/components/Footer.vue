@@ -26,7 +26,7 @@
   /* padding: 0 20px; */
   text-align: center;
   position: fixed;
-  bottom: 20px;
+  bottom: 0;
   /* width: 100%; */
 }
 

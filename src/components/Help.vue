@@ -42,12 +42,13 @@ const props = defineProps({
 .help-container {
     background: linear-gradient(to top, #ffffff, #888888);
     display: flex;
+    margin-top: 60px;
     /* max-height: 80vh; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /* overflow:visible; */
-    padding: 0 10px;
+    /* padding: 0 10px; */
     margin-bottom: 80px;
 }
 
