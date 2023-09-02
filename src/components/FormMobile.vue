@@ -74,7 +74,6 @@ onMounted(() => {
     width: 70px;
     height: 70px;
     margin-left: 5px;
-    /* border-radius: 60%; */
 }
 
 [data-type="submit"] .formkit-input:hover {
@@ -92,9 +91,7 @@ onMounted(() => {
 
 <style scoped>
 .form-container {
-    /* background: linear-gradient(to top, #ffffff, #888888); */
     height:90vh;
-    /* margin-bottom: 40px; */
 }
 
 .phone-wrapper {

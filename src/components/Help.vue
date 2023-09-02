@@ -43,11 +43,9 @@ const props = defineProps({
     background: linear-gradient(to top, #ffffff, #888888);
     display: flex;
     margin-top: 60px;
-    /* max-height: 80vh; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* overflow:visible; */
     padding: 0 10px;
     margin-bottom: 80px;
 }
@@ -76,8 +74,6 @@ p {
     border-width: 2px;
     border-color: gray;
     border-radius: 5px;
-    /* display: block; */
-    /* margin: auto; */
 }
 </style>
 
