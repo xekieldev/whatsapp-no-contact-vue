@@ -109,7 +109,6 @@ h1 {
     justify-content: center;
     width: 100%;
     padding: 40px;
-    padding-top: 110px;
 }
 </style>
 
