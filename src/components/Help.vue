@@ -58,6 +58,12 @@ h1 {
     justify-content: center;
     padding: 40px;
 }
+h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
 
 p {
     font-size: 14px;
