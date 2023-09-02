@@ -91,7 +91,7 @@ onMounted(() => {
 
 <style scoped>
 .form-container {
-    height:95vh;
+    height:90vh;
 }
 
 .phone-wrapper {
