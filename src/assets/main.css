@@ -15,4 +15,6 @@ body {
   height: 90vh;
   flex-direction: column;
   overflow:visible;
+  position: static;
+  /* margin-top: 60px; */
 }
