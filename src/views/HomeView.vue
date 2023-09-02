@@ -1,17 +1,14 @@
 <script setup>
 import Fmobile from '../components/FormMobile.vue'
-import Navbar from "../components/Nav.vue"
-import Footerbar from "../components/Footer.vue"
+
 
 </script>
 
 <template>
-  <navbar></navbar>
   <div class="content">
   <!-- <h1>Envía un WhatsApp sin guardar el número en tus contactos</h1> -->
   <fmobile title="Envía un WhatsApp sin guardar el número en tus contactos" />
 </div>
-  <footerbar></footerbar>
 </template>
 
 <style scoped>

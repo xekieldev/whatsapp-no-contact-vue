@@ -11,19 +11,20 @@
   height: 50%;
 } */
 html{
-  /* min-height: 95vh; */
+  max-height: 90vh;
   position: relative;
 }
 
-body{
-  /* width: 100vw;
-  height: 100%; */
-  margin: 0 0 50 0;
+html, body{
+  width: 100%;
+  height: 95%;
+  /* margin: 0 0 50 0; */
   /* margin-bottom: 40px; */
 }
 body {
   display: flex;
   flex-direction: column;
+  overflow:visible;
   /* background: linear-gradient(to top, #ffffff, #888888);  */
 
 }

@@ -92,7 +92,7 @@ onMounted(() => {
 
 <style scoped>
 .form-container {
-    background: linear-gradient(to top, #ffffff, #888888);
+    /* background: linear-gradient(to top, #ffffff, #888888); */
     height:90vh;
     /* margin-bottom: 40px; */
 }

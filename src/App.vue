@@ -1,15 +1,24 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import "./assets/main.css"
+import Navbar from "./components/Nav.vue"
+import Footerbar from "./components/Footer.vue"
 // import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  
-    
+  <navbar></navbar>
+<div class="container">
   <RouterView />
+</div>
+  <footerbar></footerbar>
 </template>
 
-<style>
+<style scoped>
 
+.container{
+
+  background: linear-gradient(to top, #ffffff, #888888);
+
+}
 </style>

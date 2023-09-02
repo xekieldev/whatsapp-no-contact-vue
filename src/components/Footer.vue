@@ -23,17 +23,17 @@
   /* bottom: 0; */
   width: 100%;
   /* height: 40px; */
-  padding: 0 20px;
+  /* padding: 0 20px; */
   text-align: center;
-  /* position: fixed; */
+  position: fixed;
   bottom: 20px;
   /* width: 100%; */
 }
 
-.logo {
+/* .logo {
   font-size: 1.5rem;
   font-weight: bold;
-}
+} */
 
 .footer-links {
   list-style: none;
