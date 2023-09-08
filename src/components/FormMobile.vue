@@ -23,7 +23,8 @@ onMounted(() => {
     iti = intlTelInput(input, {
         utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
         initialCountry: "ar",
-        separateDialCode: "True"
+        separateDialCode: "True",
+        preferredCountries: ["ar"]
     })
 
 })
