@@ -5,9 +5,9 @@ import { RouterLink } from 'vue-router'
 
 <template>
 <nav class="navbar">
-    <div class="logo">
+    <!-- <div class="logo">
         <a href="/"><img src="../images/logo.png" alt=""></a>
-    </div>
+    </div> -->
     <ul class="nav-links">
       <li><RouterLink to="/">Inicio</RouterLink></li>
       <li><RouterLink to="/ayuda">Ayuda</RouterLink></li>
@@ -22,16 +22,21 @@ import { RouterLink } from 'vue-router'
   position: fixed;
   justify-content: start;
   align-items: center;
-  background-color: #333;
-  color: white;
+  background-color: #000000;
+  /* color: white; */
+  font-size: 15px;
+  font-weight: bold;
+
 }
-.logo {
+/* .logo {
   font-size: 1.5rem;
   font-weight: bold;
-}
+} */
 .nav-links {
   list-style:none;
   display: flex;
+  margin: 20px;
+  
 }
 
 .nav-links li {
@@ -40,7 +45,8 @@ import { RouterLink } from 'vue-router'
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 img {
     margin: 5px;

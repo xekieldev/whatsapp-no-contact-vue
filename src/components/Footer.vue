@@ -17,7 +17,7 @@
 <style scoped>
 .footer {
   background: #ffffff;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   color: white;
   position: absolute;
   width: 100%;

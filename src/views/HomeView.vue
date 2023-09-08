@@ -13,7 +13,7 @@ import Fmobile from '../components/FormMobile.vue'
 
 <style scoped>
 .content{
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 </style>

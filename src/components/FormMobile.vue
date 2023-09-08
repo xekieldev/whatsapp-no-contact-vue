@@ -40,7 +40,15 @@ onMounted(() => {
                 <div class="phone-wrapper">
                     <input type="text" id="phone">
                 </div>
-                <form-kit type="tel" name="mobile" placeholder="Ingrese el número" />
+                <form-kit type="tel" 
+                name="mobile" 
+                placeholder="Ingrese el número" 
+                :validation="[['required'], ['matches', /^\d{8,13}$/]]"
+                validation-visibility="live"
+                :validation-messages="{
+                matches: 'Ingrese un número válido',
+                }"
+                 />
                 <form-kit type="submit" label=" "></form-kit>
 
             </form-row>
@@ -59,12 +67,14 @@ onMounted(() => {
     .iti__flag {
         background-image: url("../images/flags@2x.png");
         border-radius: 10%;
+        
     }
 }
 
 #phone {
     display: none;
     margin-left: 20px;
+    
 }
 
 [data-type="submit"] .formkit-input {
@@ -108,7 +118,8 @@ h1 {
     text-align: center;
     justify-content: center;
     width: 100%;
-    padding: 40px;
+    padding: 90px 15px 50px 15px;
+    /* color: black; */
 }
 </style>
 
