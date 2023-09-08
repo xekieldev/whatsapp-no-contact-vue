@@ -1,7 +1,7 @@
 @import './base.css';
 
 html {
-  max-height: 100vh;
+  max-height: 95vh;
   position: relative;
 }
 
@@ -13,7 +13,7 @@ html, body {
 
 body {
   display: flex;
-  height: 100vh;
+  height: 90vh;
   flex-direction: column;
   overflow:visible;
 }
