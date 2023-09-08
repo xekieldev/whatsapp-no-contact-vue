@@ -45,7 +45,7 @@ onMounted(() => {
                 name="mobile" 
                 placeholder="Ingrese el número" 
                 :validation="[['required'], ['matches', /^\d{8,13}$/]]"
-                validation-visibility="live"
+                validation-visibility="blur"
                 :validation-messages="{
                 matches: 'Ingrese un número válido',
                 }"
