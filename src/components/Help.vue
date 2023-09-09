@@ -35,6 +35,8 @@ const props = defineProps({
         <p>- Click en "Abrir enlace"</p>
         <p>- Listo! Ya puedes escribir el mensaje!</p>
         <br>
+        <br>
+        <br>
     </div>
 </template>
 
