@@ -99,6 +99,10 @@ onMounted(() => {
     width: 200px;
     background: white;
 }
+
+#input_0-incomplete {
+    text-align: center;
+}
 </style>
 
 <style scoped>
