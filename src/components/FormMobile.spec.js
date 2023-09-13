@@ -7,7 +7,6 @@ describe('FormMobile', () => {
   it('renders properly', async () =>{
     const wrapper = mount(FormMobile, { props: { title: 'Envía un WhatsApp sin guardar el número en tus contactos' } })
     await wrapper.vm.$nextTick()    
-    // debugger 
     expect(wrapper.text()).toContain('Envía un WhatsApp sin guardar el número en tus contactos')
   })
 })
