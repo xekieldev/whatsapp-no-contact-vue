@@ -21,7 +21,7 @@ function SendAWhatsapp(fields) {
 onMounted(() => {
     const input = document.querySelector("#phone");
     iti = intlTelInput(input, {
-        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+        utilsScript: "../../node_modules/esutils/lib/utils.js",
         initialCountry: "ar",
         separateDialCode: "True",
         preferredCountries: ["ar"]
