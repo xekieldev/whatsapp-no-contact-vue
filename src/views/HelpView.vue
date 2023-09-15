@@ -1,5 +1,5 @@
 <script setup>
-import Help from '../components/Help.vue'
+import Help from '../components/HelpComp.vue'
 
 </script>
 

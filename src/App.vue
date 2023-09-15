@@ -2,8 +2,8 @@
 
 import { RouterView } from 'vue-router'
 import "./assets/main.css"
-import Navbar from "./components/Nav.vue"
-import Footerbar from "./components/Footer.vue"
+import Navbar from "./components/NavBar.vue"
+import Footerbar from "./components/FooterBar.vue"
 
 </script>
 
