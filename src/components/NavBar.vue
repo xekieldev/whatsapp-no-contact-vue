@@ -4,13 +4,21 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-<nav class="navbar">
+  <nav class="navbar">
     <!-- <div class="logo">
         <a href="/"><img src="../images/logo.png" alt=""></a>
     </div> -->
     <ul class="nav-links">
-      <li><RouterLink to="/">Inicio</RouterLink></li>
-      <li><RouterLink to="/ayuda">Ayuda</RouterLink></li>
+      <li>
+        <RouterLink to="/">
+          Inicio
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink to="/ayuda">
+          Ayuda
+        </RouterLink>
+      </li>
     </ul>
   </nav>
 </template>

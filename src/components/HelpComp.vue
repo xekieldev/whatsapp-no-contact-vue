@@ -1,43 +1,73 @@
 <script setup>
 
-const props = defineProps({
+
+defineProps({
     title: String,
 })
 
 </script>
 
 <template>
-    <div class="help-container">
-        <h1>{{ title }}</h1>
-        <p> En esta página web puedes enviar mensajes a través de <a id="link" href="https://www.whatsapp.com">WhatsApp</a>
-            sin necesidad de agregar el número a tus contactos.</p>
+  <div class="help-container">
+    <h1>{{ title }}</h1>
+    <p>
+      En esta página web puedes enviar mensajes a través de <a
+        id="link"
+        href="https://www.whatsapp.com"
+      >WhatsApp</a>
+      sin necesidad de agregar el número a tus contactos.
+    </p>
 
-        <br>
+    <br>
 
-        <h3>Si lo usas desde tu móvil</h3>
-        <p>- Escribe el número al celular que quieres enviar el <a id="link" href="https://www.whatsapp.com">WhatsApp</a>
-        </p>
-        <p>- Presiona sobre la imagen de <a id="link" href="https://www.whatsapp.com">WhatsApp</a> e inmediatamente se
-            abrirá la aplicación en tu móvil</p>
-        <p>- Listo! Ya puedes escribir el mensaje!</p>
+    <h3>Si lo usas desde tu móvil</h3>
+    <p>
+      - Escribe el número al celular que quieres enviar el <a
+        id="link"
+        href="https://www.whatsapp.com"
+      >WhatsApp</a>
+    </p>
+    <p>
+      - Presiona sobre la imagen de <a
+        id="link"
+        href="https://www.whatsapp.com"
+      >WhatsApp</a> e inmediatamente se
+      abrirá la aplicación en tu móvil
+    </p>
+    <p>- Listo! Ya puedes escribir el mensaje!</p>
 
-        <br>
+    <br>
 
-        <h3>Si lo usas desde tu PC de escritorio o notebook</h3>
-        <p>- Escribe el número al celular que quieres enviar el <a id="link" href="https://www.whatsapp.com">WhatsApp</a>
-        </p>
-        <p>- Presiona sobre la imagen de <a id="link" href="https://www.whatsapp.com">WhatsApp</a> e inmediatamente serás
-            redirigido a una nueva página web que te preguntará lo siguiente:</p>
-        <br>
-        <img id="opcion" src="../images/Whatsapp_opcion.png" alt="WhatsApp api"><br>
-        <p>(Puedes seleccionar <i>"Siempre permitir que https://api.whatsapp.com abra enlaces whatsapp"</i> si lo deseas y
-            ya no se mostrará esta pantalla)</p>
-        <p>- Click en "Abrir enlace"</p>
-        <p>- Listo! Ya puedes escribir el mensaje!</p>
-        <br>
-        <br>
-        <br>
-    </div>
+    <h3>Si lo usas desde tu PC de escritorio o notebook</h3>
+    <p>
+      - Escribe el número al celular que quieres enviar el <a
+        id="link"
+        href="https://www.whatsapp.com"
+      >WhatsApp</a>
+    </p>
+    <p>
+      - Presiona sobre la imagen de <a
+        id="link"
+        href="https://www.whatsapp.com"
+      >WhatsApp</a> e inmediatamente serás
+      redirigido a una nueva página web que te preguntará lo siguiente:
+    </p>
+    <br>
+    <img
+      id="opcion"
+      src="../images/Whatsapp_opcion.png"
+      alt="WhatsApp api"
+    ><br>
+    <p>
+      (Puedes seleccionar <i>"Siempre permitir que https://api.whatsapp.com abra enlaces whatsapp"</i> si lo deseas y
+      ya no se mostrará esta pantalla)
+    </p>
+    <p>- Click en "Abrir enlace"</p>
+    <p>- Listo! Ya puedes escribir el mensaje!</p>
+    <br>
+    <br>
+    <br>
+  </div>
 </template>
 
 <style scoped>
