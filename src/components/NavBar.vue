@@ -4,6 +4,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
+
   <nav class="navbar">
     <!-- <div class="logo">
         <a href="/"><img src="../images/logo.png" alt=""></a>

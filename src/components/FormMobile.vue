@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 import FormRow from './FormRow.vue'
 import 'intl-tel-input/build/css/intlTelInput.css'
 import intlTelInput from 'intl-tel-input'
@@ -18,10 +18,11 @@ function SendAWhatsapp(fields) {
     console.log("este", countryData)
 }
 
+const phoneInput = ref(null)
+
 onMounted(() => {
-    const input = document.querySelector("#phone");
-    iti = intlTelInput(input, {
-        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+    iti = intlTelInput(phoneInput.value, {
+        utilsScript: "../../node_modules/esutils/lib/utils.js",
         initialCountry: "ar",
         separateDialCode: "True",
         preferredCountries: ["ar"]
@@ -108,6 +109,10 @@ onMounted(() => {
 .formkit-input {
     width: 200px;
     background: white;
+}
+
+#input_0-incomplete {
+    text-align: center;
 }
 </style>
 
