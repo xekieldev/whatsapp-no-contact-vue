@@ -8,11 +8,11 @@ import Footerbar from "./components/Footer.vue"
 </script>
 
 <template>
-  <navbar></navbar>
-<div class="container">
-  <RouterView />
-</div>
-  <footerbar></footerbar>
+  <navbar />
+  <div class="container">
+    <RouterView />
+  </div>
+  <footerbar />
 </template>
 
 <style scoped>

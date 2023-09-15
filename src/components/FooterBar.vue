@@ -5,10 +5,20 @@
 <template>
   <footer class="footer">
     <ul class="footer-links">
-      <li><a href="https://github.com/xekieldev"><img class="github-logo" src="../images/github-logo.png" alt=""></a></li>
-      <li><a href="https://linkedin.com/in/exequiel-sartor"><img class="github-logo" src="../images/linkedin-logo.png"
-            alt=""></a></li>
-
+      <li>
+        <a href="https://github.com/xekieldev"><img
+          class="github-logo"
+          src="../images/github-logo.png"
+          alt=""
+        ></a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/exequiel-sartor"><img
+          class="github-logo"
+          src="../images/linkedin-logo.png"
+          alt=""
+        ></a>
+      </li>
     </ul>
   </footer>
 </template>

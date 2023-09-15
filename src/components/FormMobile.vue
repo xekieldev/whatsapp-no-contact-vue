@@ -4,7 +4,7 @@ import FormRow from './FormRow.vue'
 import 'intl-tel-input/build/css/intlTelInput.css'
 import intlTelInput from 'intl-tel-input'
 
-const props = defineProps({
+defineProps({
     title: String,
 })
 
@@ -33,28 +33,39 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="form-container">
-        <h1>{{ title }}</h1>
+  <div class="form-container">
+    <h1>{{ title }}</h1>
 
-        <form-kit type="form" submit-label=" " @submit="SendAWhatsapp" :actions="false">
-            <form-row>
-                <div class="phone-wrapper">
-                    <input type="text" id="phone">
-                </div>
-                <form-kit type="tel" 
-                name="mobile" 
-                placeholder="Ingrese el número" 
-                :validation="[['required'], ['matches', /^\d{8,13}$/]]"
-                validation-visibility="blur"
-                :validation-messages="{
-                matches: 'Ingrese un número válido',
-                }"
-                 />
-                <form-kit type="submit" label=" "></form-kit>
-
-            </form-row>
-        </form-kit>
-    </div>
+    <form-kit
+      type="form"
+      submit-label=" "
+      :actions="false"
+      @submit="SendAWhatsapp"
+    >
+      <form-row>
+        <div class="phone-wrapper">
+          <input
+            id="phone"
+            type="text"
+          >
+        </div>
+        <form-kit
+          type="tel" 
+          name="mobile" 
+          placeholder="Ingrese el número" 
+          :validation="[['required'], ['matches', /^\d{8,13}$/]]"
+          validation-visibility="blur"
+          :validation-messages="{
+            matches: 'Ingrese un número válido',
+          }"
+        />
+        <form-kit
+          type="submit"
+          label=" "
+        />
+      </form-row>
+    </form-kit>
+  </div>
 </template>
 
 <style>
