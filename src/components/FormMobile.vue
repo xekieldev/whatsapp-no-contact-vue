@@ -47,6 +47,7 @@ onMounted(() => {
         <div class="phone-wrapper">
           <input
             id="phone"
+            ref="phoneInput"
             type="text"
           >
         </div>
@@ -139,5 +140,3 @@ h1 {
     /* color: black; */
 }
 </style>
-
-
